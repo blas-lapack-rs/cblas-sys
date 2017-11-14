@@ -1,6 +1,6 @@
 [package]
 name = "cblas-sys"
-version = "0.1.0"
+version = "0.1.1"
 license = "Apache-2.0/MIT"
 authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
 description = "The package provides bindings to CBLAS."
@@ -8,6 +8,8 @@ documentation = "https://docs.rs/cblas-sys"
 homepage = "https://github.com/stainless-steel/cblas-sys"
 repository = "https://github.com/stainless-steel/cblas-sys"
 readme = "README.md"
+categories = ["external-ffi-bindings", "science"]
+keywords = ["linear-algebra"]
 
 [dependencies]
 libc = "0.2"
