@@ -12,8 +12,8 @@ will be licensed according to the terms given in [LICENSE.md](LICENSE.md).
 [cblas]: https://en.wikipedia.org/wiki/BLAS
 [usage]: https://blas-lapack-rs.github.io/usage
 
-[build-img]: https://travis-ci.org/stainless-steel/cblas-sys.svg?branch=master
-[build-url]: https://travis-ci.org/stainless-steel/cblas-sys
+[build-img]: https://travis-ci.org/blas-lapack-rs/cblas-sys.svg?branch=master
+[build-url]: https://travis-ci.org/blas-lapack-rs/cblas-sys
 [documentation-img]: https://docs.rs/cblas-sys/badge.svg
 [documentation-url]: https://docs.rs/cblas-sys
 [package-img]: https://img.shields.io/crates/v/cblas-sys.svg
