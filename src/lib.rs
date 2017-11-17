@@ -1,4 +1,4 @@
-//! Bindings to [CBLAS] \(C)
+//! Bindings to [CBLAS] \(C).
 //!
 //! The usage of the package is explained [here][usage].
 //!
