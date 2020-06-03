@@ -66,6 +66,8 @@ pub use self::CBLAS_SIDE::*;
 pub type CBLAS_ORDER = CBLAS_LAYOUT;
 
 // Level 1 (functions except for complex)
+#[cfg(not(windows))]
+#[link(name = "cblas")]
 extern "C" {
     pub fn cblas_dcabs1(z: *const c_double_complex) -> c_double;
     pub fn cblas_scabs1(c: *const c_float_complex) -> c_float;
@@ -156,6 +158,8 @@ extern "C" {
 }
 
 // Level 1 (routines)
+#[cfg(not(windows))]
+#[link(name = "cblas")]
 extern "C" {
     // Standard prefixes (S, D, C, and Z)
     pub fn cblas_sswap(n: c_int, x: *mut c_float, incx: c_int, y: *mut c_float, incy: c_int);
@@ -299,6 +303,8 @@ extern "C" {
 }
 
 // Level 2
+#[cfg(not(windows))]
+#[link(name = "cblas")]
 extern "C" {
     // Standard prefixes (S, D, C, and Z)
     pub fn cblas_sgemv(
@@ -1093,6 +1099,8 @@ extern "C" {
 }
 
 // Level 3
+#[cfg(not(windows))]
+#[link(name = "cblas")]
 extern "C" {
     // Standard prefixes (S, D, C, and Z)
     pub fn cblas_sgemm(
@@ -1537,6 +1545,8 @@ extern "C" {
     );
 }
 
+#[cfg(not(windows))]
+#[link(name = "cblas")]
 extern "C" {
     pub fn cblas_xerbla(p: c_int, rout: *const c_char, form: *const c_char, ...);
 }
