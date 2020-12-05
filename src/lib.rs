@@ -1,9 +1,9 @@
 //! Bindings to [CBLAS] \(C).
 //!
-//! The usage of the package is explained [here][usage].
+//! ## [Architecture]
 //!
+//! [architecture]: https://blas-lapack-rs.github.io/architecture
 //! [cblas]: https://en.wikipedia.org/wiki/BLAS
-//! [usage]: https://blas-lapack-rs.github.io/usage
 
 #![allow(non_camel_case_types)]
 #![no_std]
