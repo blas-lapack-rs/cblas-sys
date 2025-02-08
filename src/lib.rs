@@ -8,8 +8,6 @@
 #![allow(non_camel_case_types)]
 #![no_std]
 
-extern crate libc;
-
 use libc::{c_char, c_double, c_float, c_int};
 
 /// A complex number with 64-bit parts.
