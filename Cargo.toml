@@ -11,6 +11,3 @@ repository = "https://github.com/blas-lapack-rs/cblas-sys"
 readme = "README.md"
 categories = ["external-ffi-bindings", "science"]
 keywords = ["linear-algebra"]
-
-[dependencies]
-libc = "0.2"
